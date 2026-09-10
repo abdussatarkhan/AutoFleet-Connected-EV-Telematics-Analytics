@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autofleet_connected_ev_telematics_analytics"
+version = "1.0.0"
+description = "Connected Electric Vehicle Fleet Data Warehouse: Battery State of Health (SoH) degradation curves, kWh/100km energy efficiency, regenerative braking recovery, and smart charging."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
